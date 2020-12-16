@@ -1,89 +1,124 @@
 {
   "payload": [
     {
+      "id": 0,
+      "revisao": "0",
       "calendario": {
-        "recebivelAposVencimento": true,
-        "expiracao": "2020-11-12T18:08:08.315Z"
+        "criacao": "2020-12-01T12:00:00.000Z",
+        "apresentacao": "2020-12-01T12:00:00.000Z",
+        "expiracao": "3600"
       },
       "devedor": {
         "cpf": "12345678901",
         "nome": "Rapaz que está devendo"
       },
       "valor": {
-        "original": "100.00"
+        "original": "1.00"
       },
-      "chave": "dd@hotmail.com",
-      "txId": "ID DE CONCILIACAO",
-      "versao": "1.0.0",
-      "id": 1
+      "chave": "+5561993785126",
+      "txId": "Identificador de Transação",
+      "solicitacaoPagador": "Vale Refeição",
+      "status": "ATIVA"
+    },    
+    {
+      "id": 1,
+      "revisao": "0",
+      "calendario": {
+        "criacao": "2020-12-01T12:00:00.000Z",
+        "apresentacao": "2020-12-01T12:00:00.000Z",
+        "expiracao": "3600"
+      },
+      "devedor": {
+        "cpf": "12345678901",
+        "nome": "Rapaz que está devendo"
+      },
+      "valor": {
+        "original": "2.00"
+      },
+      "chave": "vendas@supermercado.com.br",
+      "txId": "Identificador de Transação",
+      "solicitacaoPagador": "Vale Alimentação",
+      "status": "ATIVA"
+    },  
+    {
+      "id": 2,
+      "revisao": "0",
+      "calendario": {
+        "criacao": "2020-12-01T12:00:00.000Z",
+        "apresentacao": "2020-12-01T12:00:00.000Z",
+        "expiracao": "3600"
+      },
+      "devedor": {
+        "cpf": "12345678901",
+        "nome": "Rapaz que está devendo"
+      },
+      "valor": {
+        "original": "3.00"
+      },
+      "chave": "66661420000127",
+      "txId": "Identificador de Transação",
+      "solicitacaoPagador": "Vale Saúde",
+      "status": "ATIVA"
     },
     {
+      "id": 3,
+      "revisao": "0",
       "calendario": {
-        "recebivelAposVencimento": true,
-        "expiracao": "2020-11-12T18:08:08.315Z"
+        "criacao": "2020-12-01T12:00:00.000Z",
+        "apresentacao": "2020-12-01T12:00:00.000Z",
+        "expiracao": "3600"
       },
       "devedor": {
         "cpf": "12345678901",
         "nome": "Rapaz que está devendo"
       },
       "valor": {
-        "original": "100.00"
+        "original": "4.00"
       },
-      "chave": "dd@hotmail.com",
-      "txId": "ID DE CONCILIACAO",
-      "versao": "1.0.0",
-      "id": 2
+      "chave": "+5561983565726",
+      "txId": "Identificador de Transação",
+      "solicitacaoPagador": "Vale Combustível",
+      "status": "ATIVA"
+    }, 
+    {
+      "id": 4,
+      "revisao": "0",
+      "calendario": {
+        "criacao": "2020-12-01T12:00:00.000Z",
+        "apresentacao": "2020-12-01T12:00:00.000Z",
+        "expiracao": "3600"
+      },
+      "devedor": {
+        "cpf": "12345678901",
+        "nome": "Rapaz que está devendo"
+      },
+      "valor": {
+        "original": "5.00"
+      },
+      "chave": "43980338000160",
+      "txId": "Identificador de Transação",
+      "solicitacaoPagador": "Vale Transporte",
+      "status": "ATIVA"
     },
     {
+      "id": 5,
+      "revisao": "0",
       "calendario": {
-        "recebivelAposVencimento": true,
-        "expiracao": "2020-11-12T18:08:08.315Z"
+        "criacao": "2020-12-01T12:00:00.000Z",
+        "apresentacao": "2020-12-01T12:00:00.000Z",
+        "expiracao": "3600"
       },
       "devedor": {
         "cpf": "12345678901",
         "nome": "Rapaz que está devendo"
       },
       "valor": {
-        "original": "100.00"
+        "original": "6.00"
       },
-      "chave": "dd@hotmail.com",
-      "txId": "ID DE CONCILIACAO",
-      "versao": "1.0.0",
-      "id": 3
-    },
-    {
-      "calendario": {
-        "recebivelAposVencimento": true,
-        "expiracao": "2020-11-12T18:08:08.315Z"
-      },
-      "devedor": {
-        "cpf": "12345678901",
-        "nome": "Rapaz que está devendo"
-      },
-      "valor": {
-        "original": "100.00"
-      },
-      "chave": "dd@hotmail.com",
-      "txId": "ID DE CONCILIACAO",
-      "versao": "1.0.0",
-      "id": 4
-    },
-    {
-      "calendario": {
-        "recebivelAposVencimento": true,
-        "expiracao": "2020-11-12T18:08:08.315Z"
-      },
-      "devedor": {
-        "cpf": "12345678901",
-        "nome": "Rapaz que está devendo"
-      },
-      "valor": {
-        "original": "100.00"
-      },
-      "chave": "dd@hotmail.com",
-      "txId": "ID DE CONCILIACAO",
-      "versao": "1.0.0",
-      "id": 5
+      "chave": "ibis@ibishotels.com.br",
+      "txId": "Identificador de Transação",
+      "solicitacaoPagador": "Vale Viagem",
+      "status": "ATIVA"
     }
   ]
 }
