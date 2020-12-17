@@ -39,7 +39,7 @@ class KeyStore {
     let options = {
       fields: {
         x5t: await this.getFingerprint(publicKey),
-        jku: 'localhost:3000/jwk',
+        jku: 'http://localhost:3001/jwk',
         kid: publicKey.kid
       },
       alg: 'RS256',
