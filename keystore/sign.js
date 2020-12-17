@@ -3,10 +3,14 @@ const path = require('path');
 
 module.exports = {
   async sign (payload) {
-    let privateKey = await keystore.loadPrivateCert(path.join(__dirname, '../certs/privateKey.key'), 'utf-8', 'pem');
-    let publicKey = await keystore.loadPublicCert(path.join(__dirname, '../certs/certificate.crt'),'utf-8', 'pem');
+    const certFile = process.env.CERT || path.join(__dirname, '../certs/privateKey.key')
+    console.log(certFile);
+    const privateKey = await keystore.loadPrivateCert(certFile, 'utf-8', 'pem');
+
+    const keyFile = process.env.KEY || path.join(__dirname, '../certs/certificate.crt')
+    const publicKey = await keystore.loadPublicCert(keyFile, 'utf-8', 'pem');
   
-    let signed = await keystore.sign(privateKey, publicKey, payload, 'utf-8');
+    const signed = await keystore.sign(privateKey, publicKey, payload, 'utf-8');
 
     return signed;
   }
