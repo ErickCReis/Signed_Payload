@@ -4,7 +4,7 @@ Study repo for payload signing according to BACEN Pix dinamyc qr code requiremen
 To generate a public/private key pair run
 
 ```
-openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -outform pem -keyout certs/privateKey.key -out certs/certificate.crt
+openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -outform pem -keyout privateKey.key -out certificate.crt
 ```
 
 To start the application

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Yoshida-Eduardo/Signed_Payload#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "json-server": "^0.16.3",
     "node-jose": "^2.0.0",
     "uuid": "^8.3.1"

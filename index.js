@@ -1,3 +1,4 @@
+require('dotenv/config');
 const jsonServer = require('json-server');
 const path = require('path');
 
@@ -14,7 +15,7 @@ server.use(router);
 
 router.render = overwriteRender;
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT;
 server.listen(port, () => {
-  console.log('JSON Server is running');
+  console.log(`JSON Server is running on port ${port}`);
 });
